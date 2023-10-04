@@ -1,0 +1,44 @@
+HOW TO PUSH TO GITHUB
+Step 1
+GRAMMATICALLY
+click on your file explorer and create a new folder and name it.
+TECHNICALLY
+Mkdir name of folder
+Step 2
+Go to your github  account and click create new repository and write same name you saved the folder with
+Step 3 
+GRAMMATICALLY
+Click on the folder created and then left click and press new then click on txt doc and name the txt doc
+TECHNICALLY
+cd name of folder 
+touch txt file name 
+step 4
+GRAMMATICALLY
+Left click on the folder created and click open in gitbash and click git init
+TECHNICALLY
+git init
+step 5
+GRAMMATICALLY
+type git add . to get your file ready to commit
+TECHNICALLY
+git add .
+step 6
+GRAMMATICALLY
+type git commit -m "statement"
+TECHNICALLY
+git commit -m "statement"
+step 7
+GRAMMATICALLY
+type git branch -M main
+TECHNICALLY
+git branch -M main
+step 8
+GRAMMATICALLY
+type git remote add origin https://github.com/username/repository name.git
+TECHNICALLY
+git remote add origin https://github.com/username/repository.git  
+step 9
+GRAMMATICALLY
+type git push -u origin main
+TECHNICALLY
+git push -u origin main

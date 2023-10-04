@@ -1,0 +1,14 @@
+                                File Permissions
+ What is file permissions
+File permissions are system settings that determine who can access specified files and what they can do with thos files.
+When you place files on a web sever, you can assign the files various levels of permission for your users. likewise, companies often use permission to limit access to their intranet resources. permission levels vary by program, but in general you will see following types of permission
+.Owner – The person who created the files.
+.Administrator – The person responsible for managing and updating files, as well as setting permission levels.
+.Group Access – This allows you to designate specific groups of users and provide unique settings specific to them.
+.Global (sometimes called Anyone or Public) – Provides access to all users.
+.Individual User – Many programs allow you to create a specific level of access at the individual user level.
+Like user levels, the type of access users can be permitted varies, but most programs allow the following access levels:
+
+.Read – Users with this level of permission can view files and copy them, but they cannot make changes to the file or create new files.
+.Write – Users with this level of permission can edit, rename, and move files. In most cases, they can also create new files.
+.Execute – Users with this level of permission can run a specific program or type of program file. Many businesses use this to restrict access to company programs or limit their employees’ ability to run potentially dangerous executable files on company machines.

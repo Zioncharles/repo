@@ -1,0 +1,14 @@
+FILE PATH
+A file path describes the location of a file in a web site's folder structure. File paths are used when linking to external files, like: Web pages. Images. Style sheets.	`
+On Windows, paths are written using backslashes ( \ ) as the separator between folder names. On Unix based operating system such as macOS, Linux, and BSDs, the forward slash ( / ) is used as the path separator.
+A path is a string of characters used to uniquely identify a location in a directory structure. It is composed by following the directory tree hierarchy in which components, separated by a delimiting character, represent each directory. The delimiting character is most commonly the slash ("/"), the backslash character ("\"), or colon (":"), though some operating systems may use a different delimiter. Paths are used extensively in computer science to represent the directory/file relationships common in modern operating systems and are essential in the construction of Uniform Resource Locators (URLs). Resources can be represented by either absolute or relative paths.
+Programming languages also use paths. E.g.: When a file is opened. Most programming languages use the path representation of the underlying operating system:
+
+ uxFile = fopen("project/readme.txt", "r")
+ winFile = fopen("C:\\Program Files\\bin\\config.bat", "r")
+This direct access to the operating system paths can hinder the portability of programs. To support portable programs Java uses File.separator to distinguish between / and \ separated paths. Seed7 has a different approach for the path representation. In Seed7 all paths use the Unix path convention, independent of the operating system. Under windows a mapping takes place (e.g.: The path /c/users is mapped to c:\users).
+In general, a path is a string of characters which specifies a unique location in a directory or page hierarchy. For file systems, each level in the hierarchy is a directory. For URLs, each level in the hierarchy is a page. Different sections of the path are separated by a path separator, such as a forward slash (/). These different sections represent the separate directories or pages in the hierarchy, as shown below:
+
+/home/user/python/test.py
+
+In this file path, the test.py file is inside the python directory. The python directory is a subdirectory of the user directory, which is a subdirectory of the home directory. File paths are one example of a path. Paths are also an important component of URLs.

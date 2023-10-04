@@ -1,0 +1,12 @@
+SSH KEYS
+SSH (Secure Shell) is used for managing networks, operating systems, and configurations. It is also inside many file transfer tools and configuration management tools. Every major corporation uses it, in every data center.
+
+SSH keys enable the automation that makes modern cloud services and other computer-dependent services possible and cost-effective. They offer convenience and improved security when properly managed.
+
+Functionally SSH keys resemble passwords. They grant access and control who can access what. In identity and access management, they need similar policies, provisioning, and termination as user accounts and passwords. One cannot have confidentiality, integrity, or any guarantees of continued availability of systems without controlling SSH keys.
+
+Technically the keys are cryptographic keys using a public key cryptosystem. However, functionally they are authentication credentials and need to be managed as such.
+SSH (Secure Shell) keys are an access credential that is used in the SSH protocol and they are foundational to modern Infrastructure-as-a-Service platforms such as AWS, Google Cloud, and Azure. 
+SSH keys come in many sizes, but a popular choice is an RSA 2048-bit encryption, which is comparable to a 617 digit long password. On Windows systems, it is possible to generate your own SSH key pair by downloading and using an SSH client like PuTTY.
+
+On Mac and Linux systems, it is possible to generate an SSH key pair using a terminal window. Watch the video below to find out how to generate your ownS RSA key pair on Mac and Linux.
